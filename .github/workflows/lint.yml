@@ -26,7 +26,6 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install flake8
-          python setup.py install
       - name: Run lint
         run: |
           flake8 data_watcher
